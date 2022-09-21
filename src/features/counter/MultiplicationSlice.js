@@ -13,7 +13,7 @@ const MultiplicationSlice = createSlice({
             state.multiplicationCount = state.multiplicationCount - 1;
         },
         reset:(state)=>{
-            state.multiplicationCount = 0;
+            state.multiplicationCount = 1;
         }
     }
 });
